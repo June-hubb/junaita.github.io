@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
-.banner {
-    background-color: black;
-}
+$body-text-color: #E0E0E0; // Light gray for text to ensure readability
+$body-link-color: #BB86FC; // A light purple for links to stand out
+$header-bg-color: #121212; // Very dark gray, almost black for header background
+$header-bg-color-secondary: #1D1D1D; // Slightly lighter shade for gradient
+$header-heading-color: #FFFFFF; // White for header text
+$section-headings-color: #E0E0E0; // Light gray for section headings
+$code-text-color: #FFD600; // Bright color for code text for contrast
+$code-bg-color: #242424; // Dark background for code blocks
+$blockquote-text-color: #9E9E9E; // Medium gray for blockquote text
+$border-color: #333333; // Border color for elements like hr
+$table-border-color: #424242; // Table borders
+$hr-border-color: #333333; // Horizontal rule color
